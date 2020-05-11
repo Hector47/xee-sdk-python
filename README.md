@@ -4,7 +4,7 @@
 [![License Apache](https://img.shields.io/badge/License-Apache%202.0-green.svg?style=flat)](./LICENSE)
 [![Version](https://img.shields.io/badge/Version-3.0.2-blue.svg?style=flat)](https://github.com/quentin7b/xee-sdk-python/releases/tag/3.0.2)
 
-A utility library for [Xee API](https://dev.xee.com) with Python 3.
+A utility library for [Xee API](https://dev.xee.com) with Python 3, using V4 API.
 
 > Almost all the requests are done for you and the responses are returned as a **tuple**s.
 
