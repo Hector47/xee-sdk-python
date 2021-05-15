@@ -3,7 +3,8 @@
 
 from setuptools import setup, find_packages
 
-exec(open("xee/version.py").read())
+#exec(open("xee/version.py").read())
+__version__ = "3.0.3"
 
 setup(
     name='xee',
@@ -17,7 +18,7 @@ setup(
         'requests'
     ],
     include_package_data=True,
-    url='http://github.com/quentin7b/xee-sdk-python',
+    url='https://github.com/Hector47/xee-sdk-python',
     classifiers=[
         "Programming Language :: Python",
         "Development Status :: 5 - Production/Stable",

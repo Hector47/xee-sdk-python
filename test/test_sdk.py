@@ -8,8 +8,18 @@ import pytz
 from xee.exceptions import APIException
 from xee.sdk import Xee
 from datetime import datetime
+from xee import AuthScope
 
-xee = Xee('toto', 'tata', 'tut')
+xee = Xee('toto', 'tata', 'tut', scope=(
+              AuthScope.VEHICLES_READ,
+              AuthScope.VEHICLES_READ_SIGNALS,
+              AuthScope.VEHICLES_READ_LOCATIONS,
+              AuthScope.VEHICLES_READ_EVENTS,
+              AuthScope.VEHICLES_READ_ACCELEROMETERS,
+              AuthScope.VEHICLES_READ_DEVICE_DATA,
+              AuthScope.ACCOUNT_READ,
+              AuthScope.VEHICLES_MANAGEMENT
+          	  ))
 host = xee.host
 
 

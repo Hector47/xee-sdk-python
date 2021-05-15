@@ -1,7 +1,6 @@
 isodate
 requests
-enum
-base64
+enum34
 arrow
 oauthlib
 requests_oauthlib
